@@ -63,6 +63,7 @@ export default class PokemonCard extends Component {
                 src={spinner}
                 style={{ width: '5em', height: '5em' }}
                 className='card-img-top rounded mx-auto d-block mt-2'
+                alt={this.state.name}
               />
             ) : null}
             <Sprite
